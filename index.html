@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY New Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">EMPIRE</a></li>
+                    <li><a href="">REY</a></li>
+                    <li><a href="niree.html" target="_parent">ROI</a></li>
+                    <li><a href="">NOBLERS</a></li>
+                    <li><a href="">COLLARS</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>The Rey Roi Organization</h1>
+            <p>The World's most powerful Organisation.<br>Pay loyalty to gain the power.</p>
+            <a href="" class="hero">Gain Power</a>
+
+        </div>
+
+    </section>
+    <section class="empire">
+        <h1>Organisation</h1>
+        <p>Not Gods but rulers.Knows no government.The powerful people existing on this world.</p>
+
+        <div class="row">
+            <div class="empire-col">
+                <h3>Rey</h3>
+                <p>The three most important people of the organistaion. Three Rey have the control authority over their
+                    respective sectors.</p>
+            </div>
+            <div class="empire-col">
+                <h3>Roi</h3>
+                <p>The thirteen important people of the oraganisation. Thirteen Roi work under rey and maintain their
+                    respective sectors.</p>
+            </div>
+            <div class="empire-col">
+                <h3>Nobler</h3>
+                <p>The important workers of the oraganisation. Highly skilled men. Noblers control Red and Black
+                    Collars.</p>
+            </div>
+            <div class="empire-col">
+                <h3>Collars</h3>
+                <p>The workers of the organisation. Black and Red Collars based on their rankings.</p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!------ headquarters ---->
+    <section class="headquarters">
+        <h1>Head quarters</h1>
+        <p>Seven headquarters in seven continents</p>
+        <div class="row">
+            <div class="quarters-col">
+                <img src="images/download%20(2).jpg">
+                <div class="layer">
+                    <h3>Asia</h3>
+                </div>
+            </div>
+            <div class="quarters-col">
+                <img src="images/download.jpg">
+                <div class="layer">
+                    <h3>Europe</h3>
+                </div>
+            </div>
+            <div class="quarters-col">
+                <img src="images/poda.jpg">
+                <div class="layer">
+                    <h3>America</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------sectors-------->
+    <section class="sectors">
+        <h1>Sectors</h1>
+        <p>Important sectors of the organisation</p>
+        <div class="row1">
+            <div class="box1">
+                <img src="images/stngr-industries-D6egwLuXVDU-unsplash.jpg">
+            </div>
+            <div class="box2">
+                <p>We own the most advanced military equiments on the planet.</p>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="box3">
+                <img src="images/maximalfocus-VT4rx775FT4-unsplash.jpg">
+            </div>
+            <div class="box4">
+                <p>We can get into any system on this world.</p>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="box5">
+                <img src="images/riya-rohewal-pROqjTJTWx4-unsplash.jpg">
+            </div>
+            <div class="box6">
+                <p>We carry the most advanced and weigted nuclear missiles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="end">
+        <h1>You can join our organisation from<br>Anywhere on this planet.<br>You cant contact us. We will contact you.
+        </h1>
+
+    </section>
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+
+</html>
